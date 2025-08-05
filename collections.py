@@ -100,4 +100,10 @@ for x in thisdict.values():
 for x, y in thisdict.items():
     print(x, y) #prints the key and value pairs
     
+#to check if string contains substring
+print(f"-----------Checking if string contains substring------------")
 
+if 'apples' in 'This string has apples':
+    print('Apples in string')
+else:
+    print('Apples not in string')
