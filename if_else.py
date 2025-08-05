@@ -26,5 +26,12 @@ else:
     print("They are not equal")
     
     
+# Write Python code that evaluates if a is greater than b and assign to result variable
+a = 5
+b = 3
 
+result = True
+
+# Assign the opposite of 'result'
+inverse_result = False
 

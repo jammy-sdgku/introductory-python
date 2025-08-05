@@ -107,3 +107,8 @@ if 'apples' in 'This string has apples':
     print('Apples in string')
 else:
     print('Apples not in string')
+    
+    
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
