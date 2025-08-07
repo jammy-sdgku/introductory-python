@@ -28,6 +28,31 @@ print(f"using pop to remove element: {fruits}")
 fruits.insert(2, 'grape') #inserting an element at a specific index
 print(f"using insert to add element at point: {fruits}")
 
+
+#to check if string contains substring
+print(f"-----------Checking if string contains substring------------")
+
+if 'apples' in 'This string has apples':
+    print('Apples in string')
+else:
+    print('Apples not in string')
+    
+    
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+ 
+ 
+ 
+#to use list comprehension to create a new list from an existing list
+print(f"-----------using list comprehension------------")
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+
+newlist = [x for x in fruits if "a" in x]
+
+print(f" prints a new list with elements that contain 'a' {newlist}") #prints a new list with elements that contain 'a' ")
+
+
 #----------------------------------------------------------------------------------
 #tuple: ordered, unchangeable, allows duplicate values
 #defined with parentheses ()
@@ -99,16 +124,14 @@ for x in thisdict.values():
     
 for x, y in thisdict.items():
     print(x, y) #prints the key and value pairs
-    
-#to check if string contains substring
-print(f"-----------Checking if string contains substring------------")
 
-if 'apples' in 'This string has apples':
-    print('Apples in string')
+#to check if a key exists in a dictionary
+if 'brand' in thisdict:
+    print("Yes, 'brand' is a key in the dictionary")
 else:
-    print('Apples not in string')
+    print("No, 'brand' is not a key in the dictionary")
+
+
+   
+
     
-    
-thislist = ["apple", "banana", "cherry"]
-if "apple" in thislist:
-  print("Yes, 'apple' is in the fruits list")

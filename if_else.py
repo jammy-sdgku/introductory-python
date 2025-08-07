@@ -9,7 +9,7 @@ if age < 100:
         print("You are a child")
     else:
         print("You are a young person")
-elif age ==100:
+elif age ==100:  #else if statement
     print("You are an old fart")
 else:
     print("You are a dinosaur")
